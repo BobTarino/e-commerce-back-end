@@ -6,21 +6,23 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
-    title: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    post_url: {
-      type: DataTypes.STRING,
+    id: {
+      type: DataTypes.INTEGER,
       allowNull: false,
-      validate: {
-        isURL: true
-      }
+      primaryKey: true,
+      autoIncrement: true
     },
-    user_id: {
+    product_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
+        model: 'product',
+        key: 'id'
+      }
+    },
+    tag_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'tag',
         key: 'id'
       }
     }
