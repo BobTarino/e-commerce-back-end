@@ -9,6 +9,12 @@ router.get('/', (req, res) => {
           'id',
           'category_name'
       ],
+      include: [
+        {
+            model: Product,
+            attributes: ['id', 'product_name', 'price', 'stock', 'category_id'],
+        },
+    ]
   })
     // remember to always include promise to capture reponse from db call
     .then(dbPostData => res.json(dbPostData))
