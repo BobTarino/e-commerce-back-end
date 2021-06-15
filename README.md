@@ -30,7 +30,8 @@ n/a
 ## Repo
 https://github.com/BobTarino/e-commerce-back-end
 ## Walkthrough
-
+[Part 1](https://drive.google.com/file/d/1DYvRdQOP0yIwB2VYTN8siIOnpe8WEGTq/view?usp=sharing)
+[Part 2](https://drive.google.com/file/d/1iuN-4NSdkcOcyz1fruYglBQS0gm5_Ne8/view)
 
 ## Questions
 If you have questions about this repository, please contact me at bob.tarino@gmail.com
