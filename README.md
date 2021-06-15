@@ -13,9 +13,11 @@ SO THAT my company can compete with other e-commerce companies
 * [Contributing](#contributing)
 * [Test](#test)
 * [Repo](#repo)
+* [Walkthrough](#walkthrough)
 
 ## Installation
-![Screen Shot 2021-06-07 at 7 19 02 PM](https://user-images.githubusercontent.com/79377937/121105114-11727600-c7c9-11eb-8f4b-78062114b708.png)
+![Screen Shot 2021-06-14 at 10 07 41 PM](https://user-images.githubusercontent.com/79377937/121987836-e1921800-cd5e-11eb-9f6d-1577bc55034b.png)
+
 
 ## Usage
 Javascript, MYSQL2, Sequelize, dotenv
