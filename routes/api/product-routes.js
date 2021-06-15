@@ -18,8 +18,11 @@ router.get('/', (req, res) => {
             model: Category,
             attributes: [ 'id', 'category_name']
         },
-        
-
+        {
+          model: Tag,
+          attributes: ['tag_name']
+        }
+    
       ]
   })
     // remember to always include promise to capture reponse from db call
@@ -45,8 +48,8 @@ router.get('/:id', (req, res) => {
   ],
   include: [
     {
-        model: Category,
-        attributes: [ 'id', 'category_name']
+      model: Category,
+      attributes: [ 'id', 'category_name']
     },
     {
       model: Tag,
